@@ -140,6 +140,17 @@ h1 strong {
   display: none;
 }
 
+
+
+button.back-turn {
+  position: fixed; 
+  margin-left: -100px;
+  bottom: 20px;
+  transition: all .15s ease-out;
+  background: black;
+  display: none;
+}
+
 button.next-turn {
   position: fixed;
   bottom: 20px;
@@ -148,6 +159,7 @@ button.next-turn {
   display: none;
 }
 
+.during-game .back-turn,
 .during-game .next-turn {
   display: block;
 }

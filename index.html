@@ -17,7 +17,7 @@
       <div class="hacker-area">
 
         <h1>
-          <strong>Tatua Trainer </strong> <br/> What option would pose the greatest threat to your organisation? 
+          <strong>Tatua Trainer </strong> <br/> This is a short interactive game to influence learning on Digital Resilience. 
         </h1>
 
         <div class="stats hacker-stats">
@@ -65,7 +65,11 @@
         </div>
 
         <button class="start-game" onClick="startGame()">Play the Game!</button>
-        <button class="next-turn" onClick="playTurn()">Next!</button>
+        <div class="button-container">
+          <button class="next-turn" onClick="revealCards(true)">Next</button>
+          <button class="back-turn" onClick="revealCards(false)">Back</button>
+        </div>
+        
       </div>
     </div>
 

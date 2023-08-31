@@ -7,7 +7,7 @@
 }
 
 .player-area {
-  background-image: url(images/image.jpg);
+  background-image: url(images/back.jpg);
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
@@ -26,7 +26,7 @@
 
 .hacker-area {
   /* background-color: #3c1912; */
-  background-image: url(images/image.jpg);
+  background-image: url(images/back.jpg);
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
